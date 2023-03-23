@@ -1,0 +1,24 @@
+.results-container {
+    width: 50%;
+    min-height: 100px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#ejercicio-3 > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+#ejercicio-3 > div > button {
+    width: 50px;
+    padding: 0.25rem 0.5rem;
+}
+
+#clear-btn {
+    margin-top: 0.5rem;
+}

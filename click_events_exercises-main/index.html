@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Ejercicios DOM: Click events</h1>
+        <article id="ejercicio-1">
+            <h2>Ejercicio 1</h2>
+            <h3>Cada vez que se haga click en este botón, el background de toda esta página debe cambiar a un color
+                aleatorio.</h3>
+            <button type="button">Change bacground color!</button>
+        </article>
+        <article id="ejercicio-2">
+            <h2>Ejercicio 2</h2>
+            <h3>He aquí un contador y dos botones. Cuando se haga click en el botón de aumentar, el contador debe
+                aumentar en 1. Cuando se haga click en el botón de disminuir, debe disminuir en 1.</h3>
+            <div id="counter-container">
+                <span id="counter">0</span>
+                <div id="counter-btns">
+                    <button type="button">+1</button>
+                    <button type="button">-1</button>
+                </div>
+            </div>
+        </article>
+        <article id="ejercicio-3">
+            <h2>Ejercicio 3</h2>
+            <h3>Cuando se haga click en el botón, el texto debe desaparecer; si se vuelve a hacer click, aparecerá, y
+                así sucesivamente.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ipsam alias reprehenderit blanditiis
+                quis assumenda cumque quibusdam libero repudiandae minus velit et doloremque enim odio perspiciatis
+                quidem suscipit quas doloribus!</p>
+            <button type="button">Hide text</button>
+        </article>
+        <article id="ejercicio-4">
+            <h2>Ejercicio 4</h2>
+            <h3>Cuando se haga click en el botón, debe eliminarse el primer párrafo de la lista. Si no queda ninguno, no
+                debe suceder nada, tampoco mostrar error en la consola.</h3>
+            <ul>
+                <li>Párrafo 1</li>
+                <li>Párrafo 2</li>
+                <li>Párrafo 3</li>
+                <li>Párrafo 4</li>
+                <li>Párrafo 5</li>
+            </ul>
+            <button type="button">Delete &lt;li&gt;</button>
+        </article>
+        <article id="ejercicio-5">
+            <h2>Ejercicio 5</h2>
+            <h3>Debajo de este enunciado hay una lista desordenada que no contiene ningún elemento, y, por lo tanto, no es visible (debes mirar en el HTML). Debajo de esa lista verás varios párrafos: cuando se haga click en el botón de cada párrafo, el texto de ese párrafo (y no otro) debe añadirse a la lista.</h3>
+            <ul></ul>
+            <div class="paragraph-container">
+                <p>Texto del párrafo 1</p>
+                <button type="button">Add text</button>
+            </div>
+            <div class="paragraph-container">
+                <p>Texto del párrafo 2</p>
+                <button type="button">Add text</button>
+            </div>
+            <div class="paragraph-container">
+                <p>Texto del párrafo 3</p>
+                <button type="button">Add text</button>
+            </div>
+            <div class="paragraph-container">
+                <p>Texto del párrafo 4</p>
+                <button type="button">Add text</button>
+            </div>
+            <div class="paragraph-container">
+                <p>Texto del párrafo 5</p>
+                <button type="button">Add text</button>
+            </div>
+        </article>
+        <article id="ejercicio-6">
+            <h2>Ejercicio 6</h2>
+            <h3>Cuando se haga click en uno de los &lt;div&gt; que están en el cuadro de abajo, ese &lt;div&gt; debe desaparecer. Cuando
+                se haga click en el botón de añadir, debe aparecer un nuevo &lt;div&gt; con las mismas características que los
+                anteriores.</h3>
+            <div id="square-container">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <button type="button">Add &lt;div&gt;</button>
+        </article>
+        <article id="ejercicio-7">
+            <h2>Ejercicio 7</h2>
+            <h3>Cada botón debe cambiar el color del &lt;div&gt; al color indicado.</h3>
+            <div class="color-div"></div>
+            <div id="color_btns">
+                <button>Blue</button>
+                <button>Red</button>
+                <button>Green</button>
+                <button>Black</button>
+                <button>Purple</button>
+            </div>
+        </article>
+        <article id="ejercicio-8">
+            <h2>Ejercicio 8</h2>
+            <h3>Cuando se haga click en el botón de cerrar, el texto bajo el título de la card debe desaparecer, y el
+                texto del botón debe pasar a ser "Open".
+                <br> Cuando se vuelva a hacer click, el texto volverá a aparecer, y el botón pasará a "Close".
+                <br>Usa la clase "hidden" que tienes ya descrita en el CSS.
+            </h3>
+            <div id="faq-card">
+                <div id="faq-title">
+                    <h4>Abre el texto</h4><button>Close</button>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facilis.</p>
+            </div>
+        </article>
+        <article id="ejercicio-9">
+            <h2>Ejercicio 9</h2>
+            <h3>¿Has podido completar el ejercicio anterior? Entonces no tendrás ningún problema en programar el desplegable de la sección FAQ del café de altura (la sección con las preguntas frecuentes). ¡Este es un buen momento para hacerlo!</h3>
+        </article>
+        <article id="ejercicio-10">
+            <h2>Ejercicio 10</h2>
+            <h3>Usa el array de objetos que encontrarás al inicio del archivo JS de este repositorio para pintar en el DOM un &lt;div&gt; por cada uno de los objetos en la lista. Cada &lt;div&gt; tendrá los siguientes elementos:</h3>
+            <ol>
+                <li>Un &lt;span&gt; con el "id".</li>
+                <li>Un &lt;h4&gt; con el "name".</li>
+                <li>Una &lt;img&gt; con src igual a "img".</li>
+            </ol>
+            <p>Aprovecha para darle un poco de estilo y practicar CSS.</p>
+            <p>Pinta el ejercicio aquí debajo:</p>
+        </article>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

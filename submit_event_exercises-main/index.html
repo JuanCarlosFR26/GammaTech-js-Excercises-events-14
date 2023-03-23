@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Submit events</title>
+</head>
+
+<body>
+    <main>
+        <h1>Ejercicios DOM: Submit events</h1>
+        <article id="ejercicio-1">
+            <h2>Ejercicio 1</h2>
+            <h3>Debajo tienes un &lt;div&gt; vacío. Crea, dentro de él, un formulario con una &lt;label&gt;, un
+                &lt;input&gt;, y su botón de enviar. Cuando envíes el formulario, lo que hayas escrito deberá aparecer
+                debajo del formulario en una etiqueta &lt;p&gt;</h3>
+            <div class="results-container"></div>
+        </article>
+        <article id="ejercicio-2">
+            <h2>Ejercicio 2</h2>
+            <h3>Dado el siguiente formulario, deberás realizar una validación simple: si se envía el formulario vacío,
+                deberás mostrar un mensaje de error debajo que indique "Este campo es obligatorio".</h3>
+            <form action="">
+                <label for="data">Intruce algún valor:</label>
+                <input type="text" id="data" name="data">
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+        <article id="ejercicio-3">
+            <h2>Ejercicio 3</h2>
+            <h3>El siguiente formulario sólo acepta números. Cuando se introduzca un número, en el &lt;div&gt; que hay debajo deben aparecer tantos botones como el número que hayas introducido en el &lt;input&gt;. Además:</h3>
+            <ol>
+                <li>Los botones deben contener como texto el número que le corresponda: 1 el primero, 2 el segundo, etc.
+                </li>
+                <li>Los botones pares tendrán un fondo de un color, los impares de otro.</li>
+                <li>Los botones con números múltiplos de 10 tendrán otro color distinto.</li>
+            </ol>
+            <form action="">
+                <label for="number">Introduce un número:</label>
+                <input type="number" id="number" name="number">
+                <input type="submit" value="Enviar">
+            </form>
+            <div class="results-container"></div>
+        </article>
+        <article id="ejercicio-4">
+            <h2>Ejercicio 4</h2>
+            <h3>Crea, en el &lt;div&gt; que tienes debajo, un formulario de registro de usuarios que contenga los
+                siguientes campos:</h3>
+            <ul>
+                <li>Nombre (string)</li>
+                <li>Email (string)</li>
+                <li>Contraseña (password)</li>
+                <li>Edad (number)</li>
+            </ul>
+            <h3>Cuando se envíe el formulario, deberá aparecer aquí debajo la información de cada usuario.</h3>
+            <div class="results-container"></div>
+        </article>
+        <article id="ejercicio-5">
+            <h2>Ejercicio 5</h2>
+            <h3>Ahora vamos a crear la mecánica de un &lt;input&gt;, pero sin un &lt;input&gt;. Aquí debajo tienes un
+                &lt;div&gt;. Cuando el usuario pulse una tecla, deberá aparecer el el div la letra que ha pulsado. Si el
+                usuario pulsa "c", luego "a", luego "s", luego "a", en el div deberá ir apareciendo la palabra "casa".
+                Cuando se pulse el botón de "Clear", deberá eliminarse todo el texto escrito hasta ese momento en el
+                &lt;div&gt;.</h3>
+            <div class="results-container"></div>
+            <button id="clear-btn">Clear</button>
+        </article>
+    </main>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

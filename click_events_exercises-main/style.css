@@ -1,0 +1,59 @@
+#counter-container {
+    width: fit-content;
+}
+#counter {
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.paragraph-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#square-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+}
+
+.color-div {
+    width: 150px;
+    height: 150px;
+    margin: 1rem 0;
+    border: 1px solid black;
+}
+
+#faq-card {
+    width: 400px;
+    border: 1px solid black;
+}
+
+#faq-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+#faq-card > p {
+    margin: 0;
+    padding: 0.5rem;
+    border-top: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
